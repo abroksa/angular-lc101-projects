@@ -3,6 +3,7 @@
     <ul>
         <li *ngFor = 'let chore of chores'>{{chore}}</li>
     </ul>
+    <p *ngIf = "chores.length > finishedChores.length" >Work harder!</p>
 </div>
 <hr>
 <div class="doneChores">
@@ -12,3 +13,7 @@
     </ul>
 </div>
 <hr>
+
+
+if chores is empyt or finished chores has at least 3 mroe items, display target image under 
+done chors. otherwise us a p tag to dispaly text that sez "No allowance yet."
