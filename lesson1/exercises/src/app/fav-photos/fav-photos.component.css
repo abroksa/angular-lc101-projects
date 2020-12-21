@@ -4,8 +4,8 @@ h3 {
 
 img {
    border-radius: 0%;
-   width: 400;
-   height: 400;
+   max-width: 100px;
+   max-height: 100px;
  }
 
 .photos {
