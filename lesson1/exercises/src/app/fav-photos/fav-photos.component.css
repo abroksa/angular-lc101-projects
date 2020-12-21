@@ -3,8 +3,10 @@ h3 {
 }
 
 img {
-
-}
+   border-radius: 0%;
+   width: 400;
+   height: 400;
+ }
 
 .photos {
    text-align: center;
